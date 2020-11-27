@@ -1,0 +1,93 @@
+body{
+  background-color:#e07934;
+}
+
+.navbar,.navbar-default{
+  background-color:#e4b42b;
+   border-radius: 0px;
+  border:0px;
+  text-decoration: none;
+  min-height:80px;
+  height:auto;
+  
+}
+#top{
+  text-decoration: none;
+}
+.navbar-brand h1{
+  color:#b41c1c;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: 'Dosis', cursive;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px #3a362d;
+  margin-left:40px;
+    letter-spacing: 2px;
+    position:relative;
+    top:-20px; 
+    height:100px;
+}
+.navbar-brand a:hover{
+  text-decoration: none;
+}
+
+#nav-list a{
+  font-family: 'Sriracha', cursive;
+  text-align: center;
+  font-size:25px;
+  margin-top:15px;
+  margin-right:20px;
+  color:#a3401a;
+  font-weight: normal;
+}
+button.navbar-toggle{
+  background-color:#ece2e0;
+}
+
+#main-content{
+  background-color:#e07934;
+}
+#menu-title{
+  font-size:35px;
+  font-family: 'Sansita Swashed', cursive;
+  font-weight:bold;
+  padding-bottom: 20px;
+  color:maroon;
+}
+
+.section-title{
+  font-size:23px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:bold;
+}
+
+.section-content{
+  border:1px solid black;
+  border-radius: 5px;
+  background-color: #e4d850;
+  margin:10px 20px 10px 20px;
+  padding:10px;
+  width:auto;
+}
+
+#chicken h4,#beef h4,#sushi h4{
+    color:#bb2b0e;
+}
+
+@media(max-width:768px)
+{
+  #nav-list a{
+    margin-top:10px;
+    font-size:22px;
+    font-weight: bold;
+  }
+  .navbar-brand { 
+  padding: 15px 15px 65px 0px;
+}
+  .navbar-toggle{
+    position: relative;
+    top:15px;
+    right:20px;
+  }
+}
+
